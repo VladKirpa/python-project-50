@@ -11,5 +11,5 @@ packages = ['gendiff']
 
 
 [project.scripts]
-gendiff = 'gendiff.scripts.gendiff:main'
+gendiff = "gendiff.scripts.gendiff:main"
 

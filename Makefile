@@ -1,5 +1,10 @@
+install:
+	uv sync
+
 gendiff:
-	uv run python -m gendiff.scripts.gendiff
+	uv run gendiff
 
 
+build:
+	uv build
 

@@ -2,9 +2,8 @@ from gendiff.cli import parser_cli
 
 
 def main():
-    parser = parser_cli()
-    args = parser.parse_args()
-    print(args)
+    res = parser_cli()
+    print(res)
 
 
 

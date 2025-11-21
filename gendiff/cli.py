@@ -1,7 +1,6 @@
 import argparse
 
 def parser_cli():
-
     parser = argparse.ArgumentParser(
         description='Compares two configuration files and shows a difference.'
     )
@@ -9,7 +8,7 @@ def parser_cli():
     parser.add_argument('first_file')
     parser.add_argument('second_file')
 
-    return parser
+    return parser.parse_args()
 
 
 
