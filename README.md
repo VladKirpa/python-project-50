@@ -3,6 +3,8 @@
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=VladKirpa_python-project-50&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=VladKirpa_python-project-50)
 
+[![Python CI](https://github.com/VladKirpa/python-project-50/actions/workflows/pyci.yml/badge.svg)](https://github.com/VladKirpa/python-project-50/actions/workflows/pyci.yml)
+
 ### gendiff asciinema:
 https://asciinema.org/a/NwDG30gJqeKKXopaYlGQax36W
 
