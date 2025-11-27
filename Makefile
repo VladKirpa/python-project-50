@@ -15,5 +15,6 @@ test:
 
 check: test lint
 
+test-coverage:
+	uv run pytest --cov=gendiff
 
-	
