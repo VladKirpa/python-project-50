@@ -4,12 +4,16 @@ install:
 gendiff:
 	uv run gendiff
 
-
 build:
 	uv build
 
 lint:
 	uv run ruff check --fix
 
-	
+test:
+	uv run pytest
+
+check: test lint
+
+
 	
