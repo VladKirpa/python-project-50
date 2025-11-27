@@ -1,11 +1,11 @@
 import json
 
+
 def read_json(file_path):
     with open(file_path) as path:
         return json.load(path)
     
 
-    
 def get_data_diff(file1, file2):
     f1 = read_json(file1)
     f2 = read_json(file2)
@@ -15,7 +15,7 @@ def get_data_diff(file1, file2):
     
     for key in both:
         
-        #both
+        # both
         if key in f1 and key in f2:
             if f1[key] == f2[key]:
                 
@@ -29,38 +29,34 @@ def get_data_diff(file1, file2):
 
             else:
                 result.append({
-                    'key':key,
-                    'status':'changed',
-                    'old_value' : f1[key],
-                    'value' : f2[key]
+                    'key': key,
+                    'status': 'changed',
+                    'old_value': f1[key],
+                    'value': f2[key]
                 })
-        #new
+        # new
         elif key in f2 and key not in f1:
             
             result.append({
-                'key':key,
-                'status':'added',
-                'value':f2[key]
+                'key': key,
+                'status': 'added',
+                'value': f2[key]
             })
 
-        #old
+        # old
         elif key in f1 and key not in f2:
             
             result.append({
-                'key':key,
-                'status':'deleted',
+                'key': key,
+                'status': 'deleted',
                 'value': f1[key]
             })
-
 
     return result
 
 
-
-
 def make_data_diff(file_path1, file_path2):
     
-
     data = get_data_diff(file_path1, file_path2)
 
     result = []
