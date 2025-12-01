@@ -5,6 +5,9 @@
 
 [![Python CI](https://github.com/VladKirpa/python-project-50/actions/workflows/pyci.yml/badge.svg)](https://github.com/VladKirpa/python-project-50/actions/workflows/pyci.yml)
 
-### gendiff asciinema:
+### gendiff JSON format asciinema:
 https://asciinema.org/a/NwDG30gJqeKKXopaYlGQax36W
+
+### gendiff YAML format asciinema:
+https://asciinema.org/a/uxZa9WadWpvrMUrFCjgnO8Azh
 
