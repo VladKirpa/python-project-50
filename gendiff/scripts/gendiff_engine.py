@@ -1,5 +1,7 @@
 import os
+
 from gendiff.scripts.parser import parse_format
+
 
 def data_from_file(file_path):
     
@@ -14,11 +16,11 @@ def data_from_file(file_path):
 
 
 def to_str(value):
-    if value == True:
+    if value is True:
         return 'true'
-    elif value == False:
+    elif value is False:
         return 'false'
-    elif value == None:
+    elif value is None:
         return 'null'
     return value
 
