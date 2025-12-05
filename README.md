@@ -11,3 +11,11 @@ https://asciinema.org/a/NwDG30gJqeKKXopaYlGQax36W
 ### gendiff YAML format asciinema:
 https://asciinema.org/a/uxZa9WadWpvrMUrFCjgnO8Azh
 
+
+### gendiff stylish format nested files asciinema:
+https://asciinema.org/a/qcSIvxqN2Q2xkdgydHFI2rhxD
+
+### gendiff plain format asciinema
+https://asciinema.org/a/pmd8BwbepYumw5xXSzYGCyxlR
+
+

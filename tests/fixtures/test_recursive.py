@@ -18,10 +18,10 @@ def test_recurs():
 
     file1 = 'tests/fixtures/file1_rec.json'
     file2 = 'tests/fixtures/file2_rec.json'
-    file1_yaml = 'tests/fixtures/file1_rec.yml'
+    file1_yml = 'tests/fixtures/file1_rec.yml'
     
     result1 = generate_diff(file1, file2)
-    result2 = generate_diff(file1_yaml, file2)
+    result2 = generate_diff(file1_yml, file2)
     expected = read_fixture('expected_rec.txt')
 
     assert expected == result1
