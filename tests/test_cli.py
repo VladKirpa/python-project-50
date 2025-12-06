@@ -1,7 +1,11 @@
-import os
+import sys
+import pytest
+from gendiff.scripts.gendiff import main
 
+def test_gendiff_help():
+    sys.argv = ['gendiff', '-h']
 
-def test():
-
-    result = os.system('uv run gendiff -h')
-    assert (result == 0) 
+    with pytest.raises(SystemExit) as e:
+        main()
+    
+    assert e.value.code == 0
