@@ -23,3 +23,9 @@ packages = ['gendiff']
 [project.scripts]
 gendiff = "gendiff.scripts.gendiff:main"
 
+[tool.coverage.run]
+omit = [
+    "gendiff/cli.py",
+    "gendiff/scripts/gendiff.py"
+]
+

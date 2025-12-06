@@ -25,4 +25,4 @@ def tests():
 
     assert expected == generate_diff(file1, file2, 'json')
 
-    
+

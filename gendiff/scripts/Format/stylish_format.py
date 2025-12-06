@@ -70,6 +70,6 @@ def stylish(data, deepth=1):
                 old = i['old_value']
 
                 result.append(f'{space}- {key}: {stringify(old, deepth + 1)}')
-                result.append(f'{space}+ {key}: {stringify(value, deepth)}')
+                result.append(f'{space}+ {key}: {stringify(value, deepth + 1)}')
         
     return result
