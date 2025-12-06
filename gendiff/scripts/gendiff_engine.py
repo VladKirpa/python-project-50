@@ -1,5 +1,6 @@
 import os
 
+from gendiff.scripts.Format.json_format import json_format
 from gendiff.scripts.Format.plain_format import plain
 from gendiff.scripts.Format.stylish_format import stylish
 from gendiff.scripts.parser import parse_format
@@ -73,7 +74,7 @@ def get_data_diff(data1, data2):
 
 def make_format(format_type, data1, data2):
 
-    available_format = ['stylish', 'plain']
+    available_format = ['stylish', 'plain', 'json']
 
     if format_type in available_format:
 
@@ -82,6 +83,9 @@ def make_format(format_type, data1, data2):
         
         elif format_type == 'plain':
             return plain(get_data_diff(data1, data2))
+        
+        elif format_type == 'json':
+            return json_format(get_data_diff(data1, data2))
 
 
 def generate_diff(file_path1, file_path2, format='stylish'):
@@ -98,9 +102,11 @@ def generate_diff(file_path1, file_path2, format='stylish'):
     
     elif format == 'plain':
         return f"{formated}"
+    
+    elif format == 'json':
+        return make_data
 
-    return f"{{\n{formated}\n}}"
-
+    
 
 
 
