@@ -6,16 +6,23 @@
 [![Python CI](https://github.com/VladKirpa/python-project-50/actions/workflows/pyci.yml/badge.svg)](https://github.com/VladKirpa/python-project-50/actions/workflows/pyci.yml)
 
 ### gendiff JSON format asciinema:
-https://asciinema.org/a/NwDG30gJqeKKXopaYlGQax36W
+
+**https://asciinema.org/a/NwDG30gJqeKKXopaYlGQax36W**
 
 ### gendiff YAML format asciinema:
-https://asciinema.org/a/uxZa9WadWpvrMUrFCjgnO8Azh
+
+**https://asciinema.org/a/uxZa9WadWpvrMUrFCjgnO8Azh**
 
 
 ### gendiff stylish format nested files asciinema:
-https://asciinema.org/a/qcSIvxqN2Q2xkdgydHFI2rhxD
+
+**https://asciinema.org/a/qcSIvxqN2Q2xkdgydHFI2rhxD**
 
 ### gendiff plain format asciinema
-https://asciinema.org/a/pmd8BwbepYumw5xXSzYGCyxlR
+
+**https://asciinema.org/a/pmd8BwbepYumw5xXSzYGCyxlR**
 
 
+### gendiff json format asciinema
+
+**https://asciinema.org/a/NEypeviRfb18AUb426M8ztzHU**
