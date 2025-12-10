@@ -1,6 +1,6 @@
 import os
 
-from gendiff.scripts.gendiff_engine import generate_diff
+from gendiff.gendiff_engine import generate_diff
 
 cur_dir = os.path.dirname(os.path.abspath(__file__))
 

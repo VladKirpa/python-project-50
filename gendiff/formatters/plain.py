@@ -1,5 +1,5 @@
-from gendiff.scripts.Format.stylish_format import to_str
-
+from gendiff.formatters.stylish import to_str
+ 
 
 def is_value(value):
 

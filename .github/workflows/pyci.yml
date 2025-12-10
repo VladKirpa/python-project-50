@@ -31,4 +31,6 @@ jobs:
             -Dsonar.projectKey=VladKirpa_python-project-50
             -Dsonar.organization=vladkirpa
             -Dsonar.python.coverage.reportPaths=coverage.xml
+            -Dsonar.coverage.exclusions=tests/**
+            -Dsonar.exclusions=tests/** 
             

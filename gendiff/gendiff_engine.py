@@ -1,8 +1,8 @@
 import os
 
-from gendiff.scripts.Format.json_format import json_format
-from gendiff.scripts.Format.plain_format import plain
-from gendiff.scripts.Format.stylish_format import stylish
+from gendiff.formatters.json import json_format
+from gendiff.formatters.plain import plain
+from gendiff.formatters.stylish import stylish
 from gendiff.scripts.parser import parse_format
 
 
